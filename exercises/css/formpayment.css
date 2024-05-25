@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif    
+}
+
+.form {
+    border: 1px solid black;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.form abbr {
+    color: red;
+}
+
+input, select {
+    width: 250px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+fieldset {
+    margin-left: 140px;
+}
+
+.marg {
+    margin: 10px 0px 20px 0px;
+    text-align: right;
+}
+
+.button {
+    text-align: center;
+}
+

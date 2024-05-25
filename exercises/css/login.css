@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.outer {
+    background-color:brown;
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.middle {
+    background-color:cornflowerblue;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 10px 0px;
+}
+
+.rounded {
+    border-radius: 25px;
+}
+
+.middle1 {
+    background-color: white;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 10px 0px;
+}
+
+.inner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+
+}
+
+.mid {
+    margin-bottom: 30px;
+}
+
+.login-user {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 80%;
+    height: 55px;
+    border-radius: 15px;
+    padding-left: 40px;
+    color: black;
+    background-image: url('img/account.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.input1 {
+    width: 80%;
+    height: 55px;
+    border-radius: 15px;
+    padding-left: 40px;
+    color: black;
+    background-image: url(img/password.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.button {
+    border-radius: 15px;
+    width: 65%;
+    height: 50px;
+    background-color:lightskyblue;
+}
+
+.text-acc {
+    color: black;
+}
+

@@ -1,0 +1,29 @@
+/* cascade rules υπερισχύει το τελευταίο color*/
+/*p {
+    color: red;
+}
+
+p {
+    color: blue;
+} */  
+
+
+/* specificity rules id-class-type 
+                      1   0    0   = 100
+                          5    0   = 50
+                      0   0    5   = 5
+
+     υπερισχύει το 100 > 50 > 50                  
+*/
+
+.cf-text {
+    color: red;
+}
+
+P {
+    color: blue;
+}
+
+#cfText {
+    color: green!important;
+}

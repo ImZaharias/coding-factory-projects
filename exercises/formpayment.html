@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Φόρμα Πληρωμής</title>
+    <link rel="stylesheet" href="./css/formpayment.css">
+</head>
+<body>
+    <form class="form">
+        <div class="top1">
+            <h2>Φόρμα Πληρωμής</h2>
+            <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr> </p>
+        </div>
+
+        <h3 id="personal">Προσωπικά Στοιχεία</h3>
+
+        <div class="top2">
+            <fieldset id="title">  
+            <legend>Title</legend>
+            <input type="radio" id="yes" name="Title" value="Mr">
+            <label for="yes"> Mr.</label><br>
+            <input type="radio" id="no" name="Title" value="Mrs">
+            <label for="no"> Mrs.</label><br>
+            <input type="radio" id="maybe" name="Title" value="Dr">
+            <label for="maybe"> Dr.</label><br>
+            </fieldset> 
+        </div>
+        
+        <div class="mid1 marg">
+            <label for="Name">Name: <abbr title="Required field">*</abbr></label>
+            <input type="text" id="Name">
+        </div>
+
+        <div class="mid2 marg">
+            <label for="E_mail">E-mail: <abbr title="Required field">*</abbr></label>
+            <input type="email" id="E_mail">
+        </div>
+
+        <div class="mid3 marg">
+            <label for="Password">Password: <abbr title="Required field">*</abbr></label>
+            <input type="password" id="Password">
+        </div>
+
+        <h2 id="payment-info">Πληροφορίες Πληρωμής</h2>
+
+        <div class="bot1 marg">
+            <label for="Card_Type">Card Type:</label>
+            <select id="Card_Type" name="Card" >
+                <option value="visa">Visa</option>
+                <option value="Paypal">Paypal</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="bot2 marg">
+            <label for="Card_Number">Card Number: <abbr title="Required field">*</abbr></label>
+            <input type="text" id="Card_Number">
+        </div>
+
+        <div class="bot3 marg">
+            <label for="Expiration_Date" >Expiration date:<abbr title="Required field">*</abbr></label>
+            <input type="date" id="Expiration_Date">
+        </div>
+
+        <div class="button">
+            <button type="submit" value="Submit">Προχωρήστε στην πληρωμή</button>
+        </div>
+    </form>
+</body>
+</html>

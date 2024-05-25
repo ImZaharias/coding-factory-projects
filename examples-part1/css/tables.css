@@ -1,0 +1,39 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+thead{
+    background-color: darkorange;
+}
+
+tr:nth-child(even){
+    background-color: gold;
+}
+
+tbody tr:hover {
+    background-color: red;
+    color: black;
+}
+
+tbody tr td:hover {
+    background-color: red;
+    color:white
+}
+
+tfoot {
+    background-color: darkred;
+    color: white;
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo > img {
+    height: 120px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    background-color: #762124;
+}
+
+.nav {
+    width: 700px;
+    background-color: orange;
+}
+
+.nav > ul {
+    height: 120px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

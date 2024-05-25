@@ -1,0 +1,25 @@
+.container {
+    width: 500px; 
+    border: 1px solid black; /* or without board */
+    background-color: cadetblue;
+}
+
+.box1 {
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 200px;
+    margin: 30px 0px 30px 10px; /* up right bot left*/
+}
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 200px;
+    margin: 30px 0px 30px 10px; /* up right bot left*/
+}
